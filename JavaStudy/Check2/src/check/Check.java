@@ -1,4 +1,5 @@
 package check;
+import constants.Constants;
 
 public class Check {
 	
@@ -8,8 +9,8 @@ public class Check {
 	public static void main(String[] args) {
 		
 		printName(firstName,lastName);
-		Pet pet = new Pet("java吉","hoge");
-		RobotPet robotPet = new RobotPet("R202","ルーク");
+		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
+		RobotPet robotPet = new RobotPet(Constants.CHECK_CLASS_R2D2,Constants.CHECK_CLASS_LUKE);
 		
 		pet.introduce();
 		robotPet.introduce();
