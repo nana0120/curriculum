@@ -1,7 +1,75 @@
 @media screen and (max-width: 767px){
+    .header {
+        width: 300px;
+    }
 
+    .left {
+        width: 100px;
+    }
+
+    .main {
+        width: 300px;
+    }
+
+    .right {
+        width: 200px;
+    }
+
+    .c {
+        width: 125px;
+    }
+
+    .d {
+        width: 75px;
+    }
+
+    .b {
+        width: 200px;
+    }
+
+    .footer {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 479px){
+    
+    
+    .header {
+        width: 150px;
+    }
 
+    .main {
+        width: 150px;
+    }
+
+    .left {
+        width: 150px;
+        height: 100px;
+    }
+
+    .right {
+        width: 150px;
+    }
+
+    .c {
+        float: none;
+        width: 150px;
+    }
+
+    .d {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+
+    .b {
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer {
+        width: 150px;
+        height: 200px;
+    }
 }
