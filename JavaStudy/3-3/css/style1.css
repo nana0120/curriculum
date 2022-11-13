@@ -16,13 +16,17 @@
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    border: solid 10px white;
+    border-top: solid 10px white;
+    border-bottom: solid 10px white;
+    border-left: solid 10px white;
     margin-top: 20px;
     float: right;
+    box-sizing: content-box;
 }
 
 .a:last-child {
     margin-right: 20px;
+    border-right: solid 10px white;
 }
 
 

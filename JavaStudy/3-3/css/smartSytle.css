@@ -1,11 +1,49 @@
-@media screen and (max-widht: 479px){
+@media screen and (max-width: 479px){
+
     .header {
         width: 200px;
-        margin-right: 70px;
+        display: block;
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    .a {
+        float: none;
+        box-sizing: content-box;
+        margin-left: 70px;
+        margin-top: 0;
+        border-top: solid 10px white;
+        border-left: solid 10px white;
+        border-right: solid 10px white;
+        border-bottom: 0;
+    }
+
+    .a:last-child {
+        border-bottom: solid 10px white;
+    }
+
+
+    .left {
+        width: 200px;
+        height: 100px;
     }
 
     .right {
+        width: 200px;
+        height: 300px;
+        float: none;
+    }
+
+    .b {
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+
+    .b:first-child {
         margin-top: 20px;
-        margin-left: 30px;
+    }
+
+    .footer {
+        width: 200px;
     }
 }
